@@ -1,0 +1,28 @@
+h2{
+    text-align: center;
+    color: teal;
+}
+#gt{
+    background-color: plum;
+    color: white;
+}
+#yc{
+    background-color: beige;
+    color: navy;
+}
+#footer{
+    background-color: aqua;
+}
+table{
+    background-image: url(./backgroundimg.webp);
+
+}
+td, th{
+    padding: 20px;
+}
+.stt{
+    text-align: center;
+    width: 15%;
+}
+
+
