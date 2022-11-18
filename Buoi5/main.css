@@ -1,0 +1,151 @@
+/* layout1 */
+.blue{
+    background-color: aqua;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.white{
+    background-color: white;
+    height: 90%;
+    width: 80%;
+    border-radius: 30px;
+    display: flex;
+}
+.menu{
+    
+    width: 60%;
+    padding: 30px;
+}
+.tit1{
+    border-radius: 30px;
+    border: 1px solid black;
+    padding: 5px;
+    width: 100px;
+}
+.content{
+    width: 40%;
+    padding: 30px;
+}
+.con1{
+    padding: 50px;
+}
+.submit b{
+    background-color: red;
+    border-radius: 20px;
+    color: white;
+    padding: 5px;
+    
+}
+.submit{
+    display: flex;
+    justify-content: center;
+}
+.m{
+    display: flex;
+    justify-content: space-around;
+}
+/* login */
+.login{
+    background-color: pink;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.center{
+    background-color: white;
+    width: 40%;
+    height: 90%;
+    border-radius: 30px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+}
+input{
+    border: none;
+}
+.input{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.forgot{
+    display: flex;
+    justify-content: right;
+}
+.sub{
+    display: flex;
+    justify-content: center;
+}
+h4{
+    background-color: pink;
+    width: 80%;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+}
+.or{
+    text-align: center;
+
+}
+.icon{
+    display: flex;
+    justify-content: center;
+}
+
+/* layout3 */
+.layout3{
+    background-color: #7679E2;
+    height: 600px;
+}
+.layout3 > h1{
+    padding-top: 40px;
+    text-align: center;
+    color: white;
+}
+.layout3 > h3{
+    text-align: center;
+    color: white;
+}
+.template{
+    background-color: white;
+    height: 70%;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.header{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    display: flex;
+}
+.me{
+    background-color: #7679E2;
+    width: 70%;
+    border-radius: 40px;
+}
+.me ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.me a{
+    text-decoration: none;
+    color: white;
+}
+.let{
+    display: flex;
+}
+.template i{
+    color: #7679E2;
+}
+.let a{
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 5px;
+    border: 1px solid #7679E2;
+}
