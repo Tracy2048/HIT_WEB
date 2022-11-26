@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header{
+    background-color: red;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header img{
+    height: 50px;
+}
+.header input{
+    height: 30px;
+}
+.header i, p{
+    color: white;
+}
+.header__menu{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+.input i{
+    background-color: black;
+    height: 30px;
+    width: 30px;
+    padding: 6px;
+}
+.header__menu > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.menu ul{
+    height: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+.menu > ul> li> a{
+    text-decoration: none;
+    color: white;
+}
+.menu >ul> li{
+    padding: 15px;
+}
+.menu >ul>li:hover{
+    background-color: #FF3399;
+    color: gray;
+}
+.menu__child{
+    display: none;
+    position: absolute;
+    width: 400px;
+    margin-top: 15px;
+}
+.menu__container{
+    position: relative;
+}
+.menu__container:hover .menu__child{
+    display: block;
+}
+.menu__child li{
+    background-color: white;
+    list-style-type: none;
+}
+.menu__child a{
+    text-decoration: none;
+    color: black;
+}
+.menu__child ul{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid black;
+}

@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.header--fixed{
+    height: 30px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.header__left{
+    width: 40%;
+}
+.header__left a{
+    font-size: 30px;
+}
+.header__right{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+.content1{
+    background-image: url("./bg-masthead.jpg");
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content1 p{
+    color: white;
+    width: 60%;
+}
+.content1__p1{
+    font-size: 70px;
+    justify-content: center;
+}
+.content1__p2{
+    font-size: 30px;
+    justify-self: center;
+}
+.content2{
+    background-color: orangered;
+    height: 500px;
+}
