@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <th colspan="2">Tim tu dai nhat</th>
+        </tr>
+        <tr>
+            <td>Nhap xau</td>
+            <td><input type="text" id="input"></td>
+        </tr>
+        <tr>
+            <td>Thong bao ket qua</td>
+            <td><span id="output"></span></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="reset" value="Xoa">
+                <input type="button" value="Tim kiem" onclick="find()">
+            </td>
+        </tr>
+    </table>
+    <script>
+        function find(){
+            var s = document.getElementById('input').value;
+            var n = s.split(' ');
+            var m = 0;
+            var pos = 0;
+            var posm = 0;
+            for(var i=1;i<n.length;i++){
+                pos += n[i-1].length+1;
+                if(n[i].length>n[m].length){
+                    m=i;
+                    posm = pos;
+                }
+                
+            }
+            document.getElementById('output').innerText = "Tu dai nhat la "+ n[m]+" xuat hien o vi tri "+ posm;
+        }
+    </script>
+</body>
+</html>
